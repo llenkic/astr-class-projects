@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 '''
-Authors: Laura Lenkic and Elizabeth Tarantino
+Authors: Laura Lenkic
 
 Date: 10/29/2017
 
@@ -20,8 +20,8 @@ plt.plot(solutions[0],solutions[1])
 plt.xlabel('Population Density of Rabbits')
 plt.ylabel('Population Density of Foxes')
 
-print '\n'
-print 'The rabbit population is: '+str(solutions[0][-1])+'.\nThe fox populatino is: '+str(solutions[1][-1])+'.'
-print '\n'
+print('\n')
+print('The rabbit population is: '+str(solutions[0][-1])+'.\nThe fox populatino is: '+str(solutions[1][-1])+'.')
+print('\n')
 
 plt.savefig('Population_0.png',dpi=300)

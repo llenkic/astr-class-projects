@@ -1,6 +1,6 @@
 ASTR 615: Computational Astrophysics
 
-Laura Lenkic, Elizabeth Tarantino
+Laura Lenkic
 
 Homework 3 README
 
@@ -15,7 +15,7 @@ Requirements:
 	- program imports integrators from integrators.py, needs to be in working directory
 	
 Output:
-	- four figures named Populations_*.png corresponding to time steps of 1, 0.5, 0.25,
+	- figure named Pop_Evolution.png with the results for time steps of 1, 0.5, 0.25,
 	  and 0.1, where the * runs from 1 to 4
 	- prints progress to screen
 

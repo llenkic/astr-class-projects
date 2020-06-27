@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 '''
-Authors: Laura Lenkic and Elizabeth Tarantino
+Authors: Laura Lenkic
 
 Date: 10/30/2017
 

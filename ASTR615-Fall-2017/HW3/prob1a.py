@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 '''
-Authors: Laura Lenkic and Elizabeth Tarantino
+Authors: Laura Lenkic
 
 Date: 10/29/2017
 
@@ -24,6 +24,6 @@ for i in range(0,len(time_step)):
 	plt.xlabel('Population Density of Rabbits')
 	plt.ylabel('Population Density of Foxes')
 	plt.legend(loc='best')
-	print "Finished the integration for time step: "+str(time_step[i])+"."
+	print("Finished the integration for time step: "+str(time_step[i])+".")
 
 plt.savefig('Pop_Evolution.png',dpi=300)

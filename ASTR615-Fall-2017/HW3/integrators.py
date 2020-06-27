@@ -1,5 +1,5 @@
 '''
-Author: Laura Lenkic, Elizabeth Tarantino
+Authors: Laura Lenkic
 
 Date: 10/29/2017
 

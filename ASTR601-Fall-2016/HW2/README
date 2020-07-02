@@ -5,20 +5,21 @@ Laura Lenkic
 Homework 2 README
 
 =========================================================================================
-Question 1
+Question 1 
 =========================================================================================
 Part (b)
 
 To run:
-	$python prob1b.py
+	$python prob1.py
 	
 Requirements:
 	- none
 	
 Output:
-	- prints to terminal the number of the iteration, the number of atoms in the 		  excited state, and the number of atoms in the ground state
-	- figure named n2-nH-fraction.png which plots the observed (red line) and 		  theoretical (black line) fractions in the excited state as a function of time
+	- prints to terminal the iteration number, the number of atoms in the excited
+	  state, and the number of atoms in the ground state 
+	- figure named n2-nH-fraction.png showing the observed and theoretical fractions
+	  in the excited state as a function of time
 
 Notes:
 	- to see effect of having Einstein coefficient A_21 = 0, change line 19
-	

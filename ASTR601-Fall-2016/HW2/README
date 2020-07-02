@@ -1,0 +1,25 @@
+ASTR 601: Radiative Processes
+
+Laura Lenkic
+
+Homework 2 README
+
+=========================================================================================
+Question 1: You have 10,000 independent two-level atoms, meaning that every atom interacts with the radiation field, but atoms don't interact with each other. Determine the fraction of atoms in the excited state at every time step.
+=========================================================================================
+Part (b)
+Follow the evolution of the atomic states and plot the fraction of atoms in the excited state as a function of time.
+
+To run:
+	$python prob1b.py
+	
+Requirements:
+	- none
+	
+Output:
+	- prints to terminal the number of the iteration, the number of atoms in the 		  excited state, and the number of atoms in the ground state
+	- figure named n2-nH-fraction.png which plots the observed (red line) and 		  theoretical (black line) fractions in the excited state as a function of time
+
+Notes:
+	- to see effect of having Einstein coefficient A_21 = 0, change line 19
+	

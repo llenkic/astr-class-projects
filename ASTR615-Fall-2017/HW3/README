@@ -1,0 +1,50 @@
+ASTR 615: Computational Astrophysics
+
+Laura Lenkic
+
+Homework 3 README
+
+=========================================================================================
+Question 1 
+=========================================================================================
+Part (a)
+To run:
+	$python prob1a.py
+	
+Requirements:
+	- program imports integrators from integrators.py, needs to be in working directory
+	
+Output:
+	- figure named Pop_Evolution.png with the results for time steps of 1, 0.5, 0.25,
+	  and 0.1, where the * runs from 1 to 4
+	- prints progress to screen
+
+Part (b)
+To run:
+	$python prob1b.py
+
+Requirements:
+	- program imports integrators from integrators.py, needs to be in working directory
+
+Output:
+	- figure named Population_0.png, corresponding to a = b = q ~ 1.23, with time step
+	  of 0.1
+	- prints final population numbers to screen
+	
+=========================================================================================
+Question 2
+=========================================================================================
+To run:
+	$python prob2.py
+
+Requirements:
+	- program imports integrators from integrators.py, needs to be in working directory
+
+Output:
+	- The shape of the orbit: four figures named orbit_tstep*.png corresponding to time 
+	  steps of 1, 0.5, 0.25, and 0.1, where the * runs from 0 to 3
+		- plots x position vs. y position
+	- The energy of the orbit: four figures named energy_tstep*.png corresponding to time 
+	  steps of 1, 0.5, 0.25, and 0.1, where the * runs from 0 to 3
+		- plot time vs. energy of orbit
+	- In both plots the leapfrog integrator is colored blue and RK4 is colored green

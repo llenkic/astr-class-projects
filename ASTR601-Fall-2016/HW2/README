@@ -5,10 +5,9 @@ Laura Lenkic
 Homework 2 README
 
 =========================================================================================
-Question 1: You have 10,000 independent two-level atoms, meaning that every atom interacts with the radiation field, but atoms don't interact with each other. Determine the fraction of atoms in the excited state at every time step.
+Question 1
 =========================================================================================
 Part (b)
-Follow the evolution of the atomic states and plot the fraction of atoms in the excited state as a function of time.
 
 To run:
 	$python prob1b.py

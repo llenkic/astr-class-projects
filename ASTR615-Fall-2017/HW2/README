@@ -1,0 +1,51 @@
+ASTR 615: Computational Astrophysics
+
+Laura Lenkic
+
+Homework 2 README
+
+=========================================================================================
+Question 1 
+=========================================================================================
+To run:
+	$python prob1.py
+	
+Requirements:
+	- program looks for a file called homework_2.txt in the same directory
+	- if the data file is not found, an error is thrown and program exits
+	- the path to the desired data file may be adjusted in line 33
+	
+Output:
+	- the estimated parameters for the Lorentzian and Guassian fits will be printed
+	  to the terminal with one-sigma error bars 
+	- the reduced chi square value for each fit will be printed to the terminal
+	- a figure with the data, Lorenztian, and Gaussian fits will appear
+	
+=========================================================================================
+Question 2
+=========================================================================================
+Part (a)
+To run:
+	python
+	from prob2a import hsphere_vol
+	hsphere_vol(10)
+
+Requirements:
+	- none
+
+Output:
+	- estimated volume for each N with uncertainties and number of points that fall in 
+	  hypersphere
+
+Part (b)
+To run:
+	python prob2b.py
+
+Requirements:
+	- none
+
+Output:
+	- estimated mass for each N with uncertainties and number of points that fall in 
+	  volume
+	- plot of above results in "Masses.png"
+	- 3D plot of volume in Volume.png

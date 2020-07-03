@@ -1,0 +1,28 @@
+ASTR 601: Radiative Processes
+
+Laura Lenkic
+
+Homework 3 README
+
+=========================================================================================
+Question 2
+=========================================================================================
+Part (b)
+
+To run:
+	$python
+	>>>import prob2 as p2
+	>>>p2.photon_scat(*)
+
+where * can be any negative number corresponding to how deep within the material the
+photons are starting at
+	
+Requirements:
+	- none
+	
+Output:
+	- prints to terminal the number of escaped photons that are in the high mode, the
+	  total number of escapes photons, and the fraction of high mode photons that 
+	  escaped
+	- plots the angular distribution of low and high mode photons in a file named
+	  *_Below.png where star corresponds to the user input distance

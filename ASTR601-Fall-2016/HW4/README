@@ -1,0 +1,19 @@
+ASTR 601: Radiative Processes
+
+Laura Lenkic
+
+Homework 4 README
+
+=========================================================================================
+Question 1
+=========================================================================================
+To run:
+	$python prob1.py
+	
+Requirements:
+	- none
+	
+Output:
+	- figure named Compton.png that compares the distribution of energies for 100,000 
+	  photons that have each experienced 10, 100, and 1,000 scatterings off of 
+	  electrons

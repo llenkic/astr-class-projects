@@ -1,0 +1,22 @@
+ASTR 680: High Energy Astrophysics
+
+Laura Lenkic
+
+Homework 2 README
+
+=========================================================================================
+Question 3 
+=========================================================================================
+To run:
+	$python prob3.py
+	
+Requirements:
+	- none
+	
+Output:
+	- figure named SpecificEnergy.png showing the specific energy release of matter,
+	  starting from infinity, and falling onto a rotating neutron star, as a function
+	  of the neutron star's rotation rate
+
+Notes:
+	- none

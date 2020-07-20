@@ -1,0 +1,24 @@
+ASTR 680: High Energy Astrophysics
+
+Laura Lenkic
+
+Homework 3 README
+
+=========================================================================================
+Question 1
+=========================================================================================
+To run:
+	$python prob1.py
+	
+Requirements:
+	- none
+	
+Output:
+	- prints to terminal the amount of matter a black hole needs to accrete to reach 
+	  spin of nearly 1 (starting from 0) if it accretes in the prograde direction, 
+	  and the amount of matter it needs to accrete to reach a spin of 0 (starting 
+	  from nearly 1) if it accretes in the retrograde direction
+	- figures named Prograde.png and Retrograde.png showing the dimensionless spin 
+	  parameter as a function of black hole mass
+Notes:
+	- none
